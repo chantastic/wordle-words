@@ -1,0 +1,23 @@
+{
+  "name": "wordle-words",
+  "version": "0.0.0",
+  "description": "Words from the Wordle game",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chantastic/wordle-words.git"
+  },
+  "keywords": [
+    "Wordle",
+    "words"
+  ],
+  "author": "Michael Chan <mijoch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chantastic/wordle-words/issues"
+  },
+  "homepage": "https://github.com/chantastic/wordle-words#readme"
+}
