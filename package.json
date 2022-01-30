@@ -1,9 +1,19 @@
 {
   "name": "wordle-words",
+  "type": "module",
+  "source": "index.mjs",
+  "exports": {
+    "require": "./dist/wordle-words.cjs",
+    "default": "./dist/wordle-words.modern.js"
+  },
+  "main": "./dist/wordle-words.cjs",
+  "module": "./dist/wordle-words.module.js",
+  "unpkg": "./dist/wordle-words.umd.js",
   "version": "0.0.0",
   "description": "Words from the Wordle game",
-  "main": "index.mjs",
   "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/chantastic/wordle-words/issues"
   },
-  "homepage": "https://github.com/chantastic/wordle-words#readme"
+  "homepage": "https://github.com/chantastic/wordle-words#readme",
+  "devDependencies": {
+    "microbundle": "^0.14.2"
+  }
 }
